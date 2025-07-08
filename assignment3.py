@@ -45,3 +45,20 @@ print("Difference:", num1 - num2)
 print("Product:", num1 * num2)
 print("Division (float):", num1 / num2)
 print("Remainder:", num1 % num2)
+
+#Question 5 - Write a program that compares the age of two people
+
+# Get the two ages
+age1 = int(input("Enter the age of person 1: "))
+age2 = int(input("Enter the age of person 2: "))
+
+# Compare ages
+if age1 > age2:
+    print("Person 1 is older.")
+elif age2 > age1:
+    print("Person 2 is older.")
+else:
+    print("Both are the same age.")
+
+# Check if they are equal
+print("Are their ages equal?", age1 == age2)
