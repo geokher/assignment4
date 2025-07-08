@@ -32,3 +32,16 @@ print("Type of x + y:", type(sum_result))
 message = "Eben King"
 first_name = message[:4]
 print("First Name:", first_name)
+
+#Question 5 - Create a program that asks a user to do some things
+
+# Get two numbers from the user
+num1 = float(input("Please enter the first number: "))
+num2 = float(input("Please enter the second number: "))
+
+# Perform operations
+print("Sum:", num1 + num2)
+print("Difference:", num1 - num2)
+print("Product:", num1 * num2)
+print("Division (float):", num1 / num2)
+print("Remainder:", num1 % num2)
