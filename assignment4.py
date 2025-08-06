@@ -1,13 +1,8 @@
 # Build a basic inventory system for a small shop using Python. It will allow users to:
-
 # View all items
-
 # Add a new item
-
 # Update item stock
-
 # Delete an item
-
 #  ** Calculate total stock value
 
 #1. View all items
